@@ -1,0 +1,1 @@
+# wpbp-generator-config
