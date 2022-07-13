@@ -1,0 +1,52 @@
+{
+  "plugin": {
+    "name": "global-search",
+    "version": "1.0.0"
+  },
+  "author": {
+    "name": "Sentius Dev Team",
+    "email": "developer@sentius.com.au",
+    "url": "https://www.sentiusdigital.com/",
+    "license": "GPL 2.0+",
+    "copyright": "2022 Sentius Dev Team"
+  },
+  "public-assets": {
+    "js": "true",
+    "css": "true"
+  },
+  "act-deact": {
+    "actdeact": "true",
+    "uninstall": "true"
+  },
+  "admin-assets": {
+    "admin-js": "true",
+    "admin-css": "true",
+    "settings-js": "true",
+    "settings-css": "true",
+    "admin-page": "true"
+  },
+  "ajax": "true",
+  "git-repo": "false",
+  "grumphp": "false",
+  "phpstan": "false",
+  "phpcs": "false",
+  "phpmd": "false",
+  "unit-test": "true",
+  "wpcli": "true",
+  "language-files": "false",
+  "libraries": [
+    "stevegrunwell/wp-cache-remember",
+    "wpbp/template",
+    "micropackage/requirements"
+  ],
+  "snippet": {
+    "frontend": [
+      "wp-localize-script",
+      "template-system"
+    ],
+    "system": [
+      "transient",
+      "rest"
+    ]
+  }
+}
